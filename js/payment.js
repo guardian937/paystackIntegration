@@ -3,8 +3,8 @@ paymentForm.addEventListener("submit", payWithPaystack, false);
 function payWithPaystack(e) {
   e.preventDefault();
 
-  let handler = PaystackPop.setup({
-    key: '<Replace with your Api Key>', // Replace with your public key
+  let handler = PaystackPopk_live_003efcbfa9875f4b3dd8e6f9b9ae681d554f7aacp.setup({
+    key: '<>', // Replace with your public key
     email: document.getElementById("email-address").value,
     amount: document.getElementById("amount").value * 100,
     currency: 'GHS',
